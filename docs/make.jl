@@ -24,5 +24,7 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/jojal5/MarkedPoissonProcesses.jl",
-    devbranch="main",
+    devbranch = "master",
+    devurl = "dev",
+    versions = ["stable" => "v^", "v#.#", devurl => devurl]
 )
