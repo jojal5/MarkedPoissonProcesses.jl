@@ -17,6 +17,7 @@ makedocs(;
     "Tutorial" =>["Getting started" => "tutorial/index.md",
         "Poisson Process" => "tutorial/poissonprocess.md",
         "Marked Poisson Process" => "tutorial/markedpoissonprocess.md" ],
+    "kidney.md",
     "contributing.md",
     "functions.md"
     ],
@@ -26,5 +27,5 @@ deploydocs(;
     repo="github.com/jojal5/MarkedPoissonProcesses.jl",
     devbranch = "master",
     devurl = "dev",
-    versions = ["stable" => "v^", "v#.#", devurl => devurl]
+    versions = ["stable" => "v^", "v#.#"]
 )
