@@ -1,0 +1,22 @@
+name = "MarkedPoissonProcesses"
+uuid = "d448419f-2990-4cc3-aeb1-07a01663bd63"
+authors = ["Jonathan Jalbert"]
+version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+Optim = "^1.4"
+QuadGK = "^2.4"
+StatsBase = "^0.33.0"
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
