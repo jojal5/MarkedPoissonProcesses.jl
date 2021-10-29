@@ -1,6 +1,6 @@
 using MarkedPoissonProcesses, Test
 
-using Distributions, StatsBase
+using Distributions, Statistics
 
 @testset "MarkedPoissonProcesses.jl" begin
     include("structures_test.jl")

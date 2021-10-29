@@ -1,7 +1,7 @@
 # Marked Poisson Process
 
 ```@setup PoissonProcess
-using Distributions, MarkedPoissonProcesses, StatsBase
+using Distributions, MarkedPoissonProcesses, Statistics
 ```
 
 ## Process definition
