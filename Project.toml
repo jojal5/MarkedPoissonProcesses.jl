@@ -1,15 +1,18 @@
 name = "MarkedPoissonProcesses"
 uuid = "d448419f-2990-4cc3-aeb1-07a01663bd63"
 authors = ["Jonathan Jalbert"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [compat]
+Distributions = "~0.23"
+Optim = "^1"
+QuadGK = "^2"
 julia = "1"
 
 [extras]

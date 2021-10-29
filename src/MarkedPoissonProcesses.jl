@@ -1,7 +1,7 @@
 module MarkedPoissonProcesses
 
-using Distributions, Optim, QuadGK, StatsBase
-import Base.rand, Distributions.mean, Distributions.quantile, Distributions.rate, StatsBase.mean
+using Distributions, Optim, QuadGK, Statistics
+import Base.rand, Distributions.mean, Distributions.quantile, Distributions.rate, Statistics.mean
 
 include("utils.jl")
 include("structures.jl")

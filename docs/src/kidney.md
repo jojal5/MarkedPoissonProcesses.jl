@@ -1,7 +1,7 @@
 # Kidney transplant example
 
 ```@setup Kidney
-using Distributions, MarkedPoissonProcesses, StatsBase
+using Distributions, MarkedPoissonProcesses, Statistics
 ```
 
 The purpose of this example is to illustrate the functionality of the library to give instructions to patients awaiting a kidney transplant. The times of the offer as well as the quality are simulated.
